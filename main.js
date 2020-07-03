@@ -1,7 +1,8 @@
 import * as d3 from "d3";
 import { constructChart } from "./utility/constructChart";
+import "./stackbar-style.scss";
 
-const main = (selector) => {
+export const createStackbar = (selector) => {
   const data = { topVal: -35, bottomVal: -25 };
   const mainContainer = d3
     .select(selector)
