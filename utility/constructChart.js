@@ -7,12 +7,12 @@ export const constructChart = (svgContainer, data) => {
     .append("text")
     .classed("stackbar-cls-1", true)
     .attr("transform", "translate(0 33.76)")
-    .text("Verleich Zum Flottendurchschitt");
+    .text("Vergleich zum Flottendurchschitt");
   titlesContainer
     .append("text")
     .classed("stackbar-cls-1", true)
     .attr("transform", "translate(0 209.76)")
-    .text("Vergleich zu Fahrzeugkategorie");
+    .text("Vergleich zur Fahrzeugkategorie");
 
   const topBoxContainer = svgContainer.append("g").attr("id", "top-box");
   topBoxContainer
